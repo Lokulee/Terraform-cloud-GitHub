@@ -17,6 +17,6 @@ provider "aws" {
 
 resource "aws_instance" "Lokesh" {
   ami           = "ami-0cff7528ff583bf9a"
-  instance_type = "t2.nano"
+  instance_type = "t1.micro"
 
 }
